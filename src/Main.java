@@ -15,6 +15,8 @@ public class Main extends JFrame {
         setSize(800,600);
         setVisible(true);
     }
+
+
     public void paint(Graphics g){
 
         super.paint(g);
