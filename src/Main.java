@@ -8,7 +8,7 @@ public class Main extends JFrame {
     public BufferedImage pers;
     Main(){
         try {
-            pers = ImageIO.read(new File("H:/пнг.png"));
+            pers = ImageIO.read(new File("src/picture/пнг.png"));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
